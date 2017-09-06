@@ -151,6 +151,9 @@
 
 }
 @media (max-width: 390px){
+     .contact .organizer p {
+        margin: 0 auto 24px;
+    }
     .award-desc {
         margin-top: 111px;
     }
