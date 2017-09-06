@@ -1,0 +1,191 @@
+@media (max-width: 1199px){
+    .subscribe > div > div{
+        margin:0 auto;
+    }
+    .subscribe > div {
+        padding-bottom: 46px;
+    }
+}
+@media (max-width: 991px){
+    .main-navigation li a {
+        padding: 7px 0;
+    }
+    .main-navigation li:first-child + li a, .main-navigation li:last-child {
+        margin-left: 0;
+    }
+    .translate {
+        right: 8px;
+        top: -6px;
+    }
+    .intro h1 {
+        font-size: 40px;
+        margin: 65px auto 0;
+    }
+    .intro h2 {
+        font-size: 30px;
+        margin: 0 auto 40px;
+    }
+    .main-navigation {
+
+        padding-top:10px;
+    }
+    .award-desc{
+        margin-top:70px;
+        width:100%;
+        color:black;
+        height:100%;
+        /*background-color: gray;*/
+    }
+}
+@media (max-width: 768px){
+    .navbar-toggle {
+        display: inline-block !important;
+    }
+    .translate{
+        margin-top:0;
+    }
+    .main-navigation {
+        background-color: rgba(37, 96, 133, 0.97);
+        margin-top: 99px;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    .main-navigation li{
+        line-height: 50px;
+    }
+    .main-navigation li a{
+        color:white !important;
+    }
+    .translate{
+        right:0;
+        top:0;
+    }
+    #main-menu{
+        margin-left:0;
+        /*background-color: white;*/
+    }
+    ul.action li:first-child span.glyphicon{
+        display: inline-block;
+    }
+    ul.action{
+        margin-bottom:40px;
+    }
+    button.reg{
+        width:270px;
+    }
+    #main-menu{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .contact > div > div > div:last-of-type h2 {
+        color:black;
+    }
+    .contact > div > div > div div {
+        background: none;
+    }
+    .contact > div > div > div:first-of-type div {
+        background: url(../images/fon.png) no-repeat top center;
+    }
+}
+@media (max-width: 690px){
+    ul.data li {
+        height: 100px;
+        width: 100px;
+        margin:5px;
+    }
+    ul.data li p {
+        margin-top: 4px;
+    }
+    ul.data li p:last-child {
+        font-size: 71px;
+    }
+    .translate {
+        right: 11px;
+        top: 0;
+    }
+}
+
+@media (max-width: 490px){
+    ul.data li {
+        height: 80px;
+        width: 80px;
+        margin:5px;
+    }
+    ul.data li p {
+        margin-top: 4px;
+    }
+    ul.data li p:last-child {
+        font-size: 57px;
+    }
+}
+@media (max-width: 480px){
+    .subscribe img[class^="angle"]{
+        display: none;
+    }
+
+    .subscribe button{
+        width: 182px;
+        margin-left:72px;
+        height: 46px;
+    }
+    .subscribe img {
+        height: 46px;
+    }
+    .subscribe p {
+        margin-left: 0;
+
+    }
+    .info {
+        min-height: 467px;
+    }
+    .subscribe > div > div {
+        width: 269px;
+    }
+    .subscribe > div {
+        padding-bottom: 6px;
+    }
+    .subscribe {
+        margin-top: 52px;
+    }
+
+}
+@media (max-width: 390px){
+    .award-desc {
+        margin-top: 111px;
+    }
+    ul.data li {
+        height: 60px;
+        width: 60px;
+        margin:2px;
+    }
+    ul.data li p {
+        margin-top: 0;
+        margin-bottom:5px;
+    }
+    ul.data li p:last-child {
+        font-size: 40px;
+    }
+    .logo {
+        width: 60px;
+        top: 11px;
+    }
+    .navbar-toggle span:last-child {
+        font-size: 31px;
+        padding-top: 27px;
+    }
+    .contact > div > div > div div {
+        width: 257px;
+    }
+    .contact .organizer button {
+        font-size: 19px;
+        width: 222px;
+    }
+}
+@media (max-width: 330px){
+    .award-desc {
+        margin-top: 111px;
+    }
+}
+
+
