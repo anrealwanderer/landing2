@@ -1,0 +1,472 @@
+@font-face {
+    font-family: Bariol-bold;
+    src: url(../fonts/Bariol_Bold.otf);
+}
+@font-face {
+    font-family: Bariol;
+    src: url(../fonts/Bariol.otf);
+}
+@font-face {
+    font-family: Bariol_Light;
+    src: url(../fonts/Bariol_Light.otf);
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: Bariol-bold,Arial,Tahoma,sans-serif;
+    color:white;
+}
+
+h2.place{
+    font-family: Bariol_Light,Arial,Tahoma,sans-serif;
+}
+.trade .desc, p.reg, .award p,.divide ul, .subscribe p{
+    font-family: Arial, Tahoma;
+}
+.red{
+    color:#ff0000 !important;
+}
+.orange{
+    color:#faa61a !important;
+}
+.blue{
+    color:#009fdb !important;
+}
+.green{
+    color:#71bf44 !important;
+}
+a{
+    color:black !important;
+}
+.header{
+    height: 110px;
+    padding-top: 16px;
+}
+.main-container{
+    min-width: 320px;
+}
+.main-navigation li{
+    line-height: 73px;
+}
+.main-navigation{
+    position: relative;
+    z-index: 1000;
+}
+.main-navigation li a{
+    display:inline-block;
+    font-size: 17px;
+    padding: 7px 9px;
+    margin: 0 9px;
+    color: black !important;
+}
+.main-navigation li:first-child + li a,.main-navigation li:last-child {
+    margin-left:30px;
+}
+.main-navigation li a:hover{
+    background: none;
+}
+.main-navigation li a.blue:hover{
+    border-bottom:3px solid #009fdb;
+}
+.main-navigation li a.orange:hover{
+    border-bottom:3px solid #faa61a;
+}
+.main-navigation li a.red:hover{
+    border-bottom:3px solid #ff0000;
+}
+.main-navigation li a.green:hover{
+    border-bottom:3px solid #71bf44;
+}
+.main-navigation li.translate a:hover{
+    border-bottom:none;
+    background: none;
+}
+.main-navigation li.translate a{
+    padding:0;
+    margin:0;
+}
+.intro{
+}
+.intro h1{
+    font-size: 46px;
+    margin:86px auto 0 auto;
+}
+.intro h2{
+    font-size: 35px;
+    margin:0 auto 40px auto;
+}
+
+ul.action{
+display: inline-block;
+    text-align: center;
+    padding:10px;
+}
+ul.action li{
+    display: inline-block;
+    font-size:30px;
+    list-style: square;
+}
+ul.action li span.glyphicon{
+    font-size: 16px;
+    padding: 0 10px 0 8px;
+}
+ul.action li:first-child span.glyphicon{
+    display: none;
+}
+ul.action li:first-child{
+    list-style: none;
+}
+h2.place{
+    margin:30px auto 60px auto;
+    font-size: 29px;
+}
+
+ul.data{
+   list-style: none;
+    display: inline-block;
+    margin:0 auto 56px auto;
+    padding:0;
+    text-align: center;
+}
+ul.data li{
+  display: inline-block;
+    height:140px;
+    width:140px;
+    background-color: red;
+    margin: 10px;
+}
+ul.data li.day{
+    background-color: rgba(28, 143, 190, 0.8);
+}
+ul.data li.hour{
+    background-color: rgba(182, 137, 50, 0.8);
+}
+ul.data li.minute{
+    background-color: rgba(99, 150, 66, 0.8);
+}
+ul.data li.second{
+    background-color: rgba(192, 20, 26, 0.8);
+}
+ul.data li p{
+    margin:0;
+     margin-top:16px;
+}
+ul.data li p:last-child{
+    margin-top:-14px;
+     font-size:85px;
+    padding:0;
+}
+p.reg{
+    font-size: 16px;
+}
+a.reg{
+    color:white !important;
+    text-decoration: none;
+    display:block;
+    margin:15px auto 74px auto;
+    height:54px;
+    width:300px;
+    padding-top: 5px;
+    background:none;
+    border: 3px solid white;
+    font-size:24px;
+    transition: all 0.3s;
+}
+a.reg:hover{
+    background-color: white;
+    color:black !important;
+}
+.attraction{
+    background-color: white;
+    padding:46px 10px;
+}
+.attraction-item{
+    display:inline-block;
+    position: relative;
+    margin-top: 18px;
+}
+.attraction p{
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+position: absolute;
+    z-index: 2;
+    cursor:default;
+   width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.attraction .frame{
+    position:absolute;
+    padding: 15px;
+    background-color: rgba(5, 5, 5, 0.34);
+    z-index: 1;
+    width:100%;
+    height:100%;
+    top:0;
+    display: none;
+    left:0;
+}
+.attraction-item:hover .frame{
+    display: block;
+}
+.attraction-item:hover p{
+    color:white;
+}
+.trade{
+}
+.trade h1, .award h1, .contact h1{
+    font-size: 30px;
+    margin:0;
+    text-align: center;
+    padding: 39px 10px 14px 10px;
+}
+.info h1{
+    margin:0;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    z-index: 3;
+}
+.divide{
+    margin-bottom:130px;
+    margin-top:30px;
+}
+.divide p{
+    font-size: 23px;
+}
+.divide ul {
+    list-style: square;
+}
+.trade .desc{
+    text-align: center;
+    margin-bottom:35px;
+}
+
+.award{
+    text-align: center;
+    background: url(../images/award-bg.jpg) no-repeat top center ;
+    min-height: 575px;
+    background-size: cover;
+    padding-bottom:35px;
+}
+.award img{
+    margin: 0 auto;
+}
+.award h1{
+    margin-bottom: 50px;
+}
+.award-desc{
+    margin:27px auto 0 auto;
+  height:330px;
+    width:380px;
+    padding: 50px 40px 40px;
+    position: relative;
+}
+.award-desc img, .subscribe img{
+    position:absolute;
+}
+.angle-tl{
+position: absolute;
+z-index: 2;
+ top:0;
+ left:0;
+}
+.angle-tr{
+position: absolute;
+z-index: 2;
+ top:0;
+ right:0;
+}
+.angle-bl{
+position: absolute;
+z-index: 2;
+ bottom:0;
+ left:0;
+}
+.angle-br{
+position: absolute;
+z-index: 2;
+ bottom:0;
+ right:0;
+}
+.info{
+    min-height: 480px;
+    margin-bottom: 40px;
+}
+.woman{
+    position:absolute;
+    z-index: 1;
+    top:-15px;
+    right:30px;
+}
+.subscribe{
+    margin-top:37px;
+    color:black;
+}
+.subscribe p{
+    text-align: center;
+    margin-top:32px;
+    margin-left: 87px;
+}
+.subscribe img{
+    margin-bottom: 8px;
+}
+.subscribe > div{
+    position:relative;
+    padding-bottom: 13px;
+}
+.subscribe > div > div{
+    width: 380px;
+    margin-left: 105px;
+    margin-bottom: 61px;
+    margin-top: 63px;
+}
+.subscribe a{
+    background-color: #007bb6;
+    border: medium none;
+    color: white !important;
+    display: block;
+    font-size: 24px;
+    height: 60px;
+    margin-left: 84px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+    z-index: 3;
+}
+.subscribe a:hover{
+    background-color: black !important;
+}
+.subscribe > div > div div:first-of-type  a{
+    background-color: #3a5897;
+}
+.subscribe > div  > div div:last-of-type a{
+    background-color: #ff0000;
+}
+#map{
+    width:100%;
+    height:500px;
+    background-color: #DFDFDF;
+    margin-bottom:-2px;
+}
+
+.contact{
+    text-align: center;
+    background: url(../images/contact.jpg) no-repeat top center ;
+    min-height: 520px;
+    background-size: cover;
+    padding-bottom:40px;
+}
+.contact > div > div h2{
+  font-size: 25px;
+    margin-bottom:30px;
+    margin-top:18px;
+}
+.contact > div > div > div div{
+    height:290px;
+    width:100%;
+    background-color:rgba(199, 199, 199, 0.88);
+    position: relative;
+    padding:20px ;
+    color:black;
+    margin: 0 auto;
+}
+.contact .organizer p, .contact .seller p,.contact .pr p{
+    font-family: Arial, Tahoma;
+    font-size:13px;
+    margin:0;
+}
+.contact .organizer p{
+    margin:15px auto 24px auto;
+}
+.contact .organizer a{
+    margin: 0 auto;
+    padding-top: 5px;
+    color:white !important;
+    text-decoration: none;
+    display: block;
+    background-color: #ff0000;
+    width:250px;
+    height:48px;
+    border:none;
+    font-size: 24px;
+    transition: all 0.3s;
+    color:white;
+}
+.contact .organizer a:hover{
+    background-color: black;
+}
+.contact .organizer a span.second{
+  display: none;
+}
+.contact .organizer a:hover span.second{
+  display: inline-block;
+}
+.contact .organizer a:hover span.first{
+  display: none;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+footer{
+    background-color: #464646;
+    min-height: 90px;
+    padding: 15px 10px 27px;
+    text-align: center;
+}
+footer a{
+   display: inline-block;
+    margin: 20px 20px 0;
+}
+.mg-30{
+    margin-bottom: 30px !important;
+}
+ .highlight:hover{
+    color:#009fdb;
+}
+ .highlight{
+    cursor: default;
+}
+ .navbar-toggle{
+     color:black;
+     position:relative;
+     z-index: 1;
+     margin: -9px 9px 0 0;
+ }
+.navbar-toggle span:last-child{
+    font-size: 29px;
+    padding-top:20px;
+ }
+.navbar-toggle span:first-child{
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: bottom;
+ }
+#main-menu{
+    margin-left: 96px;
+    position:absolute;
+    width: 87%;
+}
+nav{
+    margin:0 -15px;
+    position: relative;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left:15px;
+}
+.translate{
+   position:absolute;
+    right:8px;
+    top:19px;
+    z-index: 1;
+}
